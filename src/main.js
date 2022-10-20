@@ -119,3 +119,7 @@ function makeRandomPoster(currentPoster) {
   return currentPoster = new Poster(randomImage, randomTitle, randomQuote)
 }
 
+function displayRandomPoster(currentPoster) {
+  currentPoster = new Poster()
+  newImage.innerHTML = randomImage
+}
